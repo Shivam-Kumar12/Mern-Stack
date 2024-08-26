@@ -1,0 +1,27 @@
+/* SwipeButtons.css */
+.swipe-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: transparent; /* Transparent background */
+  margin-top: 90px; 
+}
+
+.center-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px; 
+}
+
+.swipe-button {
+  padding: 15px;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s;
+}
+
+.swipe-button:hover {
+  transform: scale(1.1); 
+}
+

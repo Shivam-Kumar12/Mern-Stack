@@ -1,0 +1,16 @@
+/* header.css */
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.header-icon {
+  color: #000;
+}
+
+.header-logo {
+  height: 50px;
+}
